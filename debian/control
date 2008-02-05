@@ -1,0 +1,22 @@
+Source: libsub-install-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 6)
+Build-Depends-Indep: perl (>= 5.8.0-7), libtest-pod-perl, 
+ libtest-pod-coverage-perl, libtest-perl-critic-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Krzysztof Krzyzaniak (eloy) <eloy@debian.org>, 
+ gregor herrmann <gregor+debian@comodo.priv.at>, 
+ Rene Mayorga <rmayorga@debian.org.sv>
+Standards-Version: 3.7.3
+Homepage: http://search.cpan.org/dist/Sub-Install/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libsub-install-perl/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-perl/trunk/libsub-install-perl/
+
+Package: libsub-install-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, 
+Description: Install subroutines into packages easily
+ Sub::Install module makes it easy to install subroutines into packages
+ without the unslightly mess of no strict or typeglobs lying about where
+ just anyone can see them.
