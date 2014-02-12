@@ -1,19 +1,32 @@
-This is the debian package for the Sub-Install module.
-It was created by Krzysztof Krzyzaniak (eloy) <eloy@debian.org> using dh-make-perl.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Contact: Ricardo Signes <rjbs@cpan.org>
+Source: http://search.cpan.org/dist/Sub-Install/
+Upstream-Name: Sub-Install
 
-It was downloaded from: http://search.cpan.org/dist/Sub-Install/
+Files: *
+Copyright: 2005-2006, Ricardo Signes <rjbs@cpan.org>
+License: Artistic or GPL-1+
 
-The upstream author is: Ricardo Signes, <rjbs@cpan.org>
+Files: debian/*
+Copyright: 2006, Krzysztof Krzyzaniak (eloy) <eloy@debian.org>
+ 2006, gregor herrmann <gregoa@debian.org>
+ 2008, Rene Mayorga <rmayorga@debian.org>
+ 2009, Brian Cassidy <brian.cassidy@gmail.com>
+ 2011-2012, Fabrizio Regalli <fabreg@fabreg.it>
+License: Artistic or GPL-1+
 
-Several of the tests are adapted from tests that shipped with Damian Conway's
-Sub-Installer distribution..
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
 
-Copyright 2005 Ricardo Signes, All Rights Reserved.
-
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
-
-Perl is distributed under your choice of the GNU General Public License or
-the Artistic License.  On Debian GNU/Linux systems, the complete text of the
-GNU General Public License can be found in `/usr/share/common-licenses/GPL'
-and the Artistic Licence in `/usr/share/common-licenses/Artistic'.
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.

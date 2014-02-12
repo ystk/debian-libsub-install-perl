@@ -1,3 +1,45 @@
+libsub-install-perl (0.926-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Fabrizio Regalli ]
+  * Imported Upstream version 0.926
+  * Bump Standards-Version to 3.9.3
+  * Updated d/copyright using copyright-format 1.0
+  * Sort B-D-I
+  * Added 2006 year to main stanza of d/copyright
+  * Added 2012 year to debian/* copyright files
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Fri, 02 Mar 2012 00:21:51 +0100
+
+libsub-install-perl (0.925-1) unstable; urgency=low
+
+  [ Brian Cassidy ]
+  * New upstream release
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * debian/watch: use extended regexp for matching upstream versions.
+  * debian/control: remove build dependency on libtest-perl-critic-perl, don't
+    run Perl::Critic tests anymore in debian/rules.
+  * debian/control: make short description a noun phrase.
+
+  [ Rene Mayorga ]
+  * Email change: Rene Mayorga -> rmayorga@debian.org
+
+  [ Fabrizio Regalli ]
+  * Bump to 3.9.2 Standard-Version.
+  * Switch to DEP5 license format.
+  * Add myself to Uploaders.
+  * Switch d/compat to 8.
+  * Build-Depends: switch to debhelper (>= 8).
+  * Bump to 3.0 quilt format.
+  * Email change: gregor herrmann -> gregoa@debian.org
+
+ -- Fabrizio Regalli <fabreg@fabreg.it>  Tue, 14 Jun 2011 12:56:16 +0200
+
 libsub-install-perl (0.924-2) unstable; urgency=low
 
   [ gregor herrmann ]
