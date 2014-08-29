@@ -1,15 +1,15 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Contact: Ricardo Signes <rjbs@cpan.org>
-Source: http://search.cpan.org/dist/Sub-Install/
+Source: https://metacpan.org/release/Sub-Install
 Upstream-Name: Sub-Install
 
 Files: *
-Copyright: 2005-2006, Ricardo Signes <rjbs@cpan.org>
+Copyright: 2005, Ricardo Signes <rjbs@cpan.org>
 License: Artistic or GPL-1+
 
 Files: debian/*
 Copyright: 2006, Krzysztof Krzyzaniak (eloy) <eloy@debian.org>
- 2006, gregor herrmann <gregoa@debian.org>
+ 2006-2014, gregor herrmann <gregoa@debian.org>
  2008, Rene Mayorga <rmayorga@debian.org>
  2009, Brian Cassidy <brian.cassidy@gmail.com>
  2011-2012, Fabrizio Regalli <fabreg@fabreg.it>

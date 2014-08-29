@@ -1,3 +1,32 @@
+libsub-install-perl (0.928-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Fix typo in package description.
+    Thanks to Pascal De Vuyst <pascal.devuyst@gmail.com> (Closes: #732839)
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Strip trailing slash from metacpan URLs.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 27 Jun 2014 15:02:36 +0200
+
+libsub-install-perl (0.927-1) unstable; urgency=low
+
+  * Team upload
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Damyan Ivanov ]
+  * New upstream release
+  * upstream homepage moved to github
+  * claim conformance with Policy 3.9.4
+
+ -- Damyan Ivanov <dmn@debian.org>  Fri, 18 Oct 2013 23:15:26 +0300
+
 libsub-install-perl (0.926-1) unstable; urgency=low
 
   [ Ansgar Burchardt ]
